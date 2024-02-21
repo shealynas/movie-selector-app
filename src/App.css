@@ -1,0 +1,25 @@
+.moviesContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.movie {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.movie img {
+  width: 150px;
+}
+
+.selectedMovie {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.selectedMovie img {
+  width: 200px;
+}
